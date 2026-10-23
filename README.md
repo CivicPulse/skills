@@ -29,6 +29,7 @@ Browse the collection first with `npx skills add CivicPulse/skills --list`.
 | [`civic-research`](skills/civic-research/SKILL.md) | Officials, candidates, elections, ballot measures, organizations |
 | [`civic-events`](skills/civic-events/SKILL.md) | Meetings, hearings, civic events, deadlines, ICS |
 | [`civic-geography`](skills/civic-geography/SKILL.md) | Districts, precincts, ward boundaries, GeoJSON, map layers |
+| [`civic-data`](skills/civic-data/SKILL.md) | Budgets, campaign finance, voting records, open-data cleaning and joins |
 | [`civic-writing`](skills/civic-writing/SKILL.md) | Bios, explainers, meeting recaps, issue briefs |
 | [`civic-fact-check`](skills/civic-fact-check/SKILL.md) | Verifying civic claims and correcting misinformation |
 | [`civic-participation`](skills/civic-participation/SKILL.md) | Voting, contacting officials, public comment, records requests |
@@ -49,10 +50,12 @@ unlisted records out of public output.
 ## Layout
 
 ```
+skills.sh.json          # skills.sh repo-page groupings and descriptions
 skills/
   civic-research/SKILL.md
   civic-events/SKILL.md
   civic-geography/SKILL.md
+  civic-data/SKILL.md
   civic-writing/SKILL.md
   civic-fact-check/SKILL.md
   civic-participation/SKILL.md

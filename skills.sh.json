@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Research & verification",
+      "description": "Find, verify, and cite public records about officials, elections, and civic claims.",
+      "skills": ["civic-research", "civic-fact-check"]
+    },
+    {
+      "title": "Records, places & data",
+      "description": "Work with civic schedules, boundaries, and structured datasets.",
+      "skills": ["civic-events", "civic-geography", "civic-data"]
+    },
+    {
+      "title": "Communication & participation",
+      "description": "Draft neutral civic content and help people take part in public life.",
+      "skills": ["civic-writing", "civic-participation"]
+    }
+  ]
+}
